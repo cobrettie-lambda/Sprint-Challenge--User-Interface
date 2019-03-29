@@ -320,16 +320,21 @@ Begin specific styling for about.html
     padding-bottom: 20px;
 }
 
+/* div {
+    margin: 0;
+    padding: 0;
+} */
+
 .about-middle-content {
     padding: 10px 0;
     margin-bottom: 20px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.about-middle-content h2 {
+.about-middle-box h2 {
     margin: 10px 0;
 }
 
@@ -337,8 +342,11 @@ Begin specific styling for about.html
     margin: 20px 0;
 }
 
-.about-middle-box {
+.about-middle-content .about-middle-box {
     width: 50%;
     border-bottom: 1px dashed black;
-    padding: 0;
+    /* padding: 10px 0; */
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
 }
