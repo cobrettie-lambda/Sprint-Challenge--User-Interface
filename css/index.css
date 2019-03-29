@@ -319,3 +319,8 @@ Begin specific styling for about.html
     width: 95%;
     padding-bottom: 20px;
 }
+
+.about-middle-content {
+    display: flex;
+    flex-direction: column;
+}
