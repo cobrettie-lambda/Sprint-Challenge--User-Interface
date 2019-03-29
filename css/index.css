@@ -227,6 +227,46 @@ nav a:hover {
     justify-content: center;
 }
 
+.middle-content .boxes .box.box-1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box.box-2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box.box-3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box.box-4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box.box-5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box.box-6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box.box-7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box.box-8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box.box-9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box.box-10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
