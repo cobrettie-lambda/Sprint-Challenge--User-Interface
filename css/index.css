@@ -163,7 +163,6 @@ p {
     margin: 0 auto;
 }
 
-header {}
 
 nav {
     display: flex;
@@ -299,4 +298,24 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* 
+-----
+Begin specific styling for about.html
+-----
+*/
+
+.about-top-content {
+    display: flex;
+    justify-content: center;
+    /* background-color: dodgerblue; */
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+
+.about-top-content .about-text-content {
+    width: 95%;
+    padding-bottom: 20px;
 }
