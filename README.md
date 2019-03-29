@@ -52,7 +52,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Explain why git is valuable to a team of developers.
 
-5.A - git has many reasons for being valuable to a team of developers.
+5.A - Git has many reasons for being valuable to a team of developers. First of all, it allows your team to all work on the same project, without interfering with each others work. Each of you can be on your own branch, doing your own work, and merge to the master when ready. Git allows you to revert code files to a previous state. You can even revert your entire project to a previous state. Git allows you to see who introduced a particular issue, and when. Git performs very strongly and reliably when compared to other version control systems. Git is very secure when it comes to maintaining the integrity of source code. Git is widely accepted among developers. These are just a few of the many reasons git is valuable to a team of developers.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section _will_ prevent you from passing this challenge.
 

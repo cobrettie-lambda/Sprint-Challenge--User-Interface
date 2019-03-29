@@ -355,3 +355,7 @@ Begin specific styling for about.html
 .bottom-middle-box {
     margin-top: 50px;
 }
+
+.about-bottom-content {
+    margin: 40px 15px 0 15px;
+}
