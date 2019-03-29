@@ -334,19 +334,24 @@ Begin specific styling for about.html
     flex-wrap: wrap;
 }
 
+.about-middle-box {
+    margin: 0 10px;
+    width: 47%;
+    border-bottom: 1px dashed black;
+}
+
 .about-middle-box h2 {
     margin: 10px 0;
 }
 
 .about-middle-box button {
-    margin: 20px 0;
+    margin: 15px 0 20px 0;
+    padding: 8px 18px;
+    border: 2px solid black;
+    border-radius: .5em;
+    font-size: 1.1em;
 }
 
-.about-middle-content .about-middle-box {
-    width: 50%;
-    border-bottom: 1px dashed black;
-    /* padding: 10px 0; */
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center; */
+.bottom-middle-box {
+    margin-top: 50px;
 }
