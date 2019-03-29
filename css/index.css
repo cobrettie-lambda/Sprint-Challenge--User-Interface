@@ -178,8 +178,8 @@ nav a {
 
 nav a:hover {
     transition-duration: .4s;
-    font-size: 1.3rem;
-    color: rgb(174, 0, 0);
+    font-size: 1.3em;
+    color: rgb(199, 0, 0);
 }
 
 .header-img {
@@ -359,3 +359,9 @@ Begin specific styling for about.html
 .about-bottom-content {
     margin: 40px 15px 0 15px;
 }
+
+/* 
+-----
+Begin specific styling for contact.html
+-----
+*/
