@@ -352,6 +352,13 @@ Begin specific styling for about.html
     font-size: 1.1em;
 }
 
+.about-middle-box button:hover {
+    transition-duration: .3s;
+    color: rgb(199, 0, 0);
+    background-color: #373737;
+    cursor: pointer;
+}
+
 .bottom-middle-box {
     margin-top: 50px;
 }
@@ -365,3 +372,68 @@ Begin specific styling for about.html
 Begin specific styling for contact.html
 -----
 */
+
+.contact-container {
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+.contact-heading {
+    text-align: center;
+}
+
+.contact-heading h2 {
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+.contact-heading p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.contact-column {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-input-container {
+    /*  */
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #373737;
+    font-size: 1em;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    transition-duration: .3s;
+    font-size: 1.2em;
+    background-color: rgb(199, 0, 0);
+}
