@@ -3,60 +3,152 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -71,6 +163,29 @@ p {
     margin: 0 auto;
 }
 
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 40px 0;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    transition-duration: .4s;
+    font-size: 1.3em;
+    color: rgb(199, 0, 0);
+}
+
+.header-img {
+    margin-bottom: 30px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +197,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -110,6 +225,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box.box-1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box.box-2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box.box-3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box.box-4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box.box-5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box.box-6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box.box-7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box.box-8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box.box-9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box.box-10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +298,142 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* 
+-----
+Begin specific styling for about.html
+-----
+*/
+
+.about-top-content {
+    display: flex;
+    justify-content: center;
+    /* background-color: dodgerblue; */
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+
+.about-top-content .about-text-content {
+    width: 95%;
+    padding-bottom: 20px;
+}
+
+/* div {
+    margin: 0;
+    padding: 0;
+} */
+
+.about-middle-content {
+    padding: 10px 0;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-middle-box {
+    margin: 0 10px;
+    width: 47%;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle-box h2 {
+    margin: 10px 0;
+}
+
+.about-middle-box button {
+    margin: 15px 0 20px 0;
+    padding: 8px 18px;
+    border: 2px solid black;
+    border-radius: .5em;
+    font-size: 1.1em;
+}
+
+.about-middle-box button:hover {
+    transition-duration: .3s;
+    color: rgb(199, 0, 0);
+    background-color: #373737;
+    cursor: pointer;
+}
+
+.bottom-middle-box {
+    margin-top: 50px;
+}
+
+.about-bottom-content {
+    margin: 40px 15px 0 15px;
+}
+
+/* 
+-----
+Begin specific styling for contact.html
+-----
+*/
+
+.contact-container {
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+.contact-heading {
+    text-align: center;
+}
+
+.contact-heading h2 {
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+.contact-heading p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.contact-column {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-input-container {
+    /*  */
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #373737;
+    font-size: 1em;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    transition-duration: .3s;
+    font-size: 1.2em;
+    background-color: rgb(199, 0, 0);
 }
