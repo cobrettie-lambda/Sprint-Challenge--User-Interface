@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-1.A - Semantic HTML is a process of providing "meaning" to your content. Using an h1 where applicable, as well as p tags, section tags, using the nav tag for your navigation content, as well as other semantic tags for your HTML code. By doing this, you are making your website and code readable, as well as easily interpreted by machines, screen readers and search engines. If your code does not have much semantic meaning given to it, you could lose out on valuable SEO. Both humans, AND machines prefer semantic code.
+1.A - Semantic HTML is a process of providing "meaning" to your content. Using an h1 where applicable, as well as p tags, section tags, using the nav tag for your navigation content, as well as other semantic tags for your HTML code. By doing this, you are making your website and code readable, as well as easily interpreted by machines, screen readers and search engines. If your code does not have much semantic meaning given to it, you could lose out on valuable SEO. Both humans and machines prefer semantic code.
 
 2. Name two big differences between `display: block;` and `display: inline;`.
 
